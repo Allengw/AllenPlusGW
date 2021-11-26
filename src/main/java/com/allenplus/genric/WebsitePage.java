@@ -27,7 +27,7 @@ public class WebsitePage{
 		
 		if(environment.equalsIgnoreCase("QA")&&panel.equalsIgnoreCase("Student"))
 		{
-			driver.get("https://allenqa.thinkexam.com/login");
+			driver.get("http://allenqa.thinkexam.com/");
 			logger.info("Test is Executed at "+panel+" Panel at "+environment+" server\n");
 			Reporter.log("\n                  ==========================================================\n                      Test is Executed on "+panel+" Panel at "+environment+" server\n                  ==========================================================\n",true);
 		}
@@ -39,13 +39,13 @@ public class WebsitePage{
 		}
 		else if(environment.equalsIgnoreCase("Live")&&panel.equalsIgnoreCase("Student"))
 		{
-			driver.get("https://allenplus.allen.ac.in/login");
+			driver.get("https://allenplus.allen.ac.in/");
 			logger.info("Test is Executed at "+panel+" Panel at "+environment+" server\n");
 			Reporter.log("\n                  ==========================================================\n                      Test is Executed on "+panel+" Panel at "+environment+" server\n                  ==========================================================\n",true);
 		}
 		if(environment.equalsIgnoreCase("QA")&&panel.equalsIgnoreCase("Admin"))
 		{
-			driver.get("https://allenqa.thinkexam.com/admin/");
+			driver.get("http://allenqa.thinkexam.com//admin/");
 			logger.info("Test is Executed at "+panel+" Panel at "+environment+" server\n");
 			Reporter.log("\n                  ==========================================================\n                      Test is Executed on "+panel+" Panel at "+environment+" server\n                  ==========================================================\n",true);
 		}

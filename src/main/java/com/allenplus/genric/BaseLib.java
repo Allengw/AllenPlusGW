@@ -37,13 +37,13 @@ public class BaseLib {
 	{
 		
 		 PropertyConfigurator.configure("log4j.properties");
-		 extent=new ExtentReports("C:/Users/ginger/git/AllenDSAT/log/report.html");
+		 extent=new ExtentReports("E:/Eclipse Workplace/AllenPlusGW/log/report.html");
 		 loggerE=extent.startTest(":::::: Launch Browser ::::::");
 		 
 		 
 		 if(browser.equalsIgnoreCase("firefox"))
 		 { 
-			 //System.setProperty("webdriver.gecko.driver","C:/Users/ginger/git/AllenDSAT/driverfiles/geckodriver.exe");
+			 //System.setProperty("webdriver.gecko.driver","E:/Eclipse Workplace/AllenPlusGW/driverfiles/geckodriver.exe");
 			 WebDriverManager.firefoxdriver().setup();
 			 driver=new FirefoxDriver();
 			 System.out.println("\n");
@@ -54,7 +54,7 @@ public class BaseLib {
 		 else 
 		 if(browser.equalsIgnoreCase("chrome"))
 		 { 
-			//System.setProperty("webdriver.chrome.driver","C:/Users/ginger/git/AllenDSAT/driverfiles/chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver","E:/Eclipse Workplace/AllenPlusGW/driverfiles/chromedriver.exe");
 			 WebDriverManager.chromedriver().setup();
 			 driver=new ChromeDriver();
 			 System.out.println("\n");
@@ -112,7 +112,7 @@ public class BaseLib {
 		extent.endTest(loggerE);
 		extent.flush();
 		//extent.close();
-		driver.get("file:C:/Users/ginger/git/AllenDSAT/log/report.html");
+		driver.get("file:E:/Eclipse Workplace/AllenPlusGW/log/report.html");
 		//driver.close();
 		//logger.info("Browser is closed");
 		//Reporter.log("Browser is closed");

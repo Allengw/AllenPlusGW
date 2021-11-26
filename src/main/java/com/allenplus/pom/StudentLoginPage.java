@@ -24,25 +24,13 @@ public class StudentLoginPage{
 	
 	public WebDriverWait wait;
 	
-	@FindBy(xpath="//p[@id='error']")
-	private List<WebElement> loginError;
-	
-	@FindBy(xpath="//img[@src='student/images/login-close-icon.gif']")
-	private List<WebElement> emailSkip;
-	
-	@FindBy(xpath="//a[@onclick='closepop();']")
-	private List<WebElement> popUp;
-	
-	@FindBy(xpath="//select[@id='session_name1']//option")
-	private List<WebElement> session;
-	
-	@FindBy(xpath="//input[@id='email']")
+	@FindBy(xpath="//input[@id='emailId']")
 	private WebElement formID;
 	
-	@FindBy(id="password")
+	@FindBy(xpath="//input[@id='passwordl']")
 	private WebElement password;
 	
-	@FindBy(xpath="//input[@class='login']")
+	@FindBy(xpath="//input[@class='inpt btnin btneffect']")
 	private WebElement loginBtn;
 	
 	private String actSLPTitle;
@@ -61,44 +49,28 @@ public class StudentLoginPage{
 	 */
 	public void studentLogin(WebDriver driver,String environment,String passType,ExtentTest loggerE,int i)
 	{
-		try 
-		{
-			Thread.sleep(2000);
-			if(popUp.isEmpty())
-			{
-				//Do Nothing	
-			}
-			else
-			{
-				popUp.get(0).click();
-			}
-		} catch(InterruptedException e) 
-		{
+		
+		/*formID.sendKeys("DUMST2");
+		password.sendKeys("ap@123");
+		
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
-			loggerE.log(LogStatus.ERROR, "Interrupted Exception");
-
-		}catch(NoSuchElementException e)
-		{
-			e.printStackTrace();
-			loggerE.log(LogStatus.ERROR, "No Such Element Exception");
-
-		}catch(ElementClickInterceptedException e)
-		{
-			e.printStackTrace();
-			loggerE.log(LogStatus.ERROR, "Element Click Intercepted Exception");
-
 		}
+		
+		loginBtn.click();*/
 			try
 			{
 				String sheet="sheet1";
 				int row=i;
 
-				String sSession=ExcelLib.readExcelData(sheet, row, 1);
 				String sFormID=ExcelLib.readExcelData(sheet, row, 2);
 				String sPassword=ExcelLib.readExcelData(sheet, row, 3);
 				String mPassword=ExcelLib.readExcelData(sheet, row, 4);
 				
-				if(environment.equalsIgnoreCase("local"))
+				if(environment.equalsIgnoreCase("QA"))
 				{
 					wait.until(ExpectedConditions.visibilityOf(formID));
 					formID.sendKeys(sFormID);
@@ -115,48 +87,20 @@ public class StudentLoginPage{
 						password.sendKeys(mPassword);
 						loggerE.log(LogStatus.INFO, "Master Password : "+mPassword); 
 					}
-					
-					wait.until(ExpectedConditions.visibilityOf(loginBtn));
-					loginBtn.click();
-				
-					if(loginError.isEmpty())
-					{
-						loggerE.log(LogStatus.PASS, "Student Logged In");
-					}
-					else
-					{
-						loggerE.log(LogStatus.FAIL, "Student Login Fail : "+loginError.get(0).getText());
-						((WebDriver) driver.switchTo()).get("file:///home/ginger/git/AllenDSAT/log/report.html");
-					}
-					try 
-					{
-						if(emailSkip.isEmpty())
-						{
-							//Do Nothing
-						}
-						else
-						{
-							emailSkip.get(0).click();
-						}
-					}catch(NoSuchElementException e)
-					{
+					try {
+						Thread.sleep(5000);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
 						e.printStackTrace();
-						loggerE.log(LogStatus.ERROR, "No Such Element Exception");
-	
-					}		
-	
-				}else if(environment.equalsIgnoreCase("Live"))
-				{
-					wait.until(ExpectedConditions.visibilityOfAllElements(session));
-					for(WebElement wb:session)
-					{
-						if(wb.getText().contains(sSession))
-						{
-							wb.click();
-							loggerE.log(LogStatus.INFO,sSession);
-							break;
-						}
 					}
+					wait.until(ExpectedConditions.visibilityOf(loginBtn));
+					loginBtn.click(); 
+					actSLPTitle=driver.getCurrentUrl();
+					
+				}
+				else if(environment.equalsIgnoreCase("Live"))
+				{
+					
 					wait.until(ExpectedConditions.visibilityOf(formID));
 					formID.sendKeys(sFormID);
 					loggerE.log(LogStatus.INFO, "Student FormID : "+sFormID);
@@ -175,33 +119,8 @@ public class StudentLoginPage{
 					}
 					
 					wait.until(ExpectedConditions.visibilityOf(loginBtn));
-					loginBtn.click();
-					
-					if(loginError.isEmpty())
-					{
-						loggerE.log(LogStatus.PASS, "Student Logged In");
-					}
-					else
-					{
-						loggerE.log(LogStatus.FAIL, "Student Login Fail : "+loginError.get(0).getText());
-						((WebDriver) driver.switchTo()).get("file:///home/ginger/git/AllenDSAT/log/report.html");
-					}
-					
-					try 
-					{
-						if(emailSkip.isEmpty())
-						{
-							//Do Nothing
-						}
-						else
-						{
-							emailSkip.get(0).click();
-						}
-					}catch(NoSuchElementException e)
-					{
-						e.printStackTrace();
-						loggerE.log(LogStatus.ERROR, "No Such Element Exception");
-					}
+					loginBtn.click();	
+				
 				}
 				
 			}catch(IndexOutOfBoundsException e)

@@ -1311,3 +1311,40 @@ java.lang.IllegalStateException: cannot be started once stopped
 2021-11-11 16:20:34,804 - WebsitePage -INFO - Test is Executed at student Panel at live server
 
 2021-11-11 16:20:48,939 - BaseLib -INFO - ScreenShot has been Taken
+2021-11-26 10:50:32,137 - BaseLib -INFO - Chrome Browser is Launched
+2021-11-26 10:50:39,427 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2021-11-26 10:54:55,070 - BaseLib -INFO - Chrome Browser is Launched
+2021-11-26 10:55:02,688 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2021-11-26 10:56:12,957 - BaseLib -INFO - Chrome Browser is Launched
+2021-11-26 10:56:20,161 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2021-11-26 11:00:36,962 - BaseLib -INFO - Chrome Browser is Launched
+2021-11-26 11:00:43,827 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2021-11-26 11:53:53,784 - BaseLib -INFO - Chrome Browser is Launched
+2021-11-26 11:54:00,742 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2021-11-26 11:57:32,336 - BaseLib -INFO - Chrome Browser is Launched
+2021-11-26 11:57:41,507 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2021-11-26 11:57:43,659 - BaseLib -INFO - ScreenShot has been Taken
+2021-11-26 11:59:31,180 - BaseLib -INFO - Chrome Browser is Launched
+2021-11-26 11:59:37,848 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2021-11-26 11:59:39,643 - BaseLib -INFO - ScreenShot has been Taken
+2021-11-26 12:05:22,904 - BaseLib -INFO - FireFox is Launched
+2021-11-26 12:05:30,727 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2021-11-26 12:05:33,505 - BaseLib -INFO - ScreenShot has been Taken
+2021-11-26 12:08:37,302 - BaseLib -INFO - FireFox is Launched
+2021-11-26 12:08:46,964 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2021-11-26 12:08:50,129 - BaseLib -INFO - ScreenShot has been Taken
+2021-11-26 12:11:31,791 - BaseLib -INFO - FireFox is Launched
+2021-11-26 12:11:32,426 - BaseLib -INFO - FireFox is Launched
+2021-11-26 12:11:46,630 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2021-11-26 12:11:48,136 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+

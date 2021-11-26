@@ -20,7 +20,7 @@ public class ScreenShotLib {
 			
 			
 			File srcFile=ts.getScreenshotAs(OutputType.FILE);
-			String dest="C:/Users/ginger/git/AllenDSAT/Screenshots/"+fileName+".png";
+			String dest="E:/Eclipse Workplace/AllenPlusGW/Screenshots/"+fileName+".png";
 			
 			File destFile=new File(dest);
 			

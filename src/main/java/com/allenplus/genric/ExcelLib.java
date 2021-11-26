@@ -17,7 +17,7 @@ public class ExcelLib {
 	 *@author Mayank
 	 */
 	
-	static String  filepath="C:/Users/ginger/git/AllenDSAT/TestData/TestData1.xls";
+	static String  filepath="E:/Eclipse Workplace/AllenPlusGW/TestData/TestData1.xls";
 	/**
 	 * @description this Method is used to read data from excel sheet
 	 * @param rowNum
