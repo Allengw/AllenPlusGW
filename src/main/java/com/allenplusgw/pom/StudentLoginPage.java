@@ -1,9 +1,7 @@
-package com.allenplus.pom;
+package com.allenplusgw.pom;
 
-import java.util.List;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.ElementClickInterceptedException;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,7 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-import com.allenplus.genric.ExcelLib;
+import com.allenplusgw.genric.ExcelLib;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
@@ -38,7 +36,7 @@ public class StudentLoginPage{
 	public StudentLoginPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
-		actSLPTitle=driver.getTitle();
+		actSLPTitle=driver.getCurrentUrl();
 		wait=new WebDriverWait(driver, 30);
 	}
 	
@@ -49,18 +47,8 @@ public class StudentLoginPage{
 	 */
 	public void studentLogin(WebDriver driver,String environment,String passType,ExtentTest loggerE,int i)
 	{
+		verifyHomePageTitle(driver, loggerE);
 		
-		/*formID.sendKeys("DUMST2");
-		password.sendKeys("ap@123");
-		
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		loginBtn.click();*/
 			try
 			{
 				String sheet="sheet1";
@@ -95,7 +83,7 @@ public class StudentLoginPage{
 					}
 					wait.until(ExpectedConditions.visibilityOf(loginBtn));
 					loginBtn.click(); 
-					actSLPTitle=driver.getCurrentUrl();
+					
 					
 				}
 				else if(environment.equalsIgnoreCase("Live"))
@@ -120,7 +108,6 @@ public class StudentLoginPage{
 					
 					wait.until(ExpectedConditions.visibilityOf(loginBtn));
 					loginBtn.click();	
-				
 				}
 				
 			}catch(IndexOutOfBoundsException e)
@@ -147,9 +134,9 @@ public class StudentLoginPage{
 
 	public void verifyHomePageTitle(WebDriver driver,ExtentTest loggerE)
 	{
-		String expSLPTitle="ALLEN Career Institute, Kota Coaching - JEE Advanced (IIT JEE) | JEE Main (AIEEE) | NEET (Pre Medical) | Pre-Nurture Coaching";
+		String expSLPTitle="https://allenqa.thinkexam.com/login";
 		
-	    Assert.assertEquals(actSLPTitle, expSLPTitle, "Student Login Page Title is not Verified");
-	    loggerE.log(LogStatus.PASS,"Student Login Page Title is not Verified : ' "+actSLPTitle+" '");
+	    Assert.assertEquals(actSLPTitle, expSLPTitle, "Student Login Page is not Verified");
+	    loggerE.log(LogStatus.PASS,"Student Login Page is  Verified : ' "+actSLPTitle+" '");
 	}
 }

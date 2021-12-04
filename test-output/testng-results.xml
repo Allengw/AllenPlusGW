@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[FireFox is Launched]]>
+      <![CDATA[Chrome Browser is Launched]]>
     </line>
     <line>
       <![CDATA[
@@ -12,26 +12,26 @@
 ]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="42638" started-at="2021-11-26T12:11:17 IST" finished-at="2021-11-26T12:12:00 IST">
+  <suite name="Suite" duration-ms="40824" started-at="2021-12-02T13:20:33 IST" finished-at="2021-12-02T13:21:13 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="42638" started-at="2021-11-26T12:11:17 IST" finished-at="2021-11-26T12:12:00 IST">
-      <class name="com.allenplus.scripts.StudentLoginTest">
-        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:com.allenplus.scripts.StudentLoginTest@42607a4f]" name="preCondition" is-config="true" duration-ms="14898" started-at="2021-11-26T12:11:17 IST" finished-at="2021-11-26T12:11:32 IST">
+    <test name="Test" duration-ms="40824" started-at="2021-12-02T13:20:33 IST" finished-at="2021-12-02T13:21:13 IST">
+      <class name="com.allenplus.scripts.StartTest">
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:com.allenplus.scripts.StartTest@42607a4f]" name="preCondition" is-config="true" duration-ms="4432" started-at="2021-12-02T13:20:33 IST" finished-at="2021-12-02T13:20:37 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[FireFox is Launched]]>
+              <![CDATA[Chrome Browser is Launched]]>
             </line>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="studentLogin()[pri:0, instance:com.allenplus.scripts.StudentLoginTest@42607a4f]" name="studentLogin" duration-ms="21610" started-at="2021-11-26T12:11:32 IST" finished-at="2021-11-26T12:11:54 IST">
+        <test-method status="PASS" signature="TestStartTest()[pri:0, instance:com.allenplus.scripts.StartTest@42607a4f]" name="TestStartTest" duration-ms="33040" started-at="2021-12-02T13:20:37 IST" finished-at="2021-12-02T13:21:10 IST">
           <reporter-output>
             <line>
               <![CDATA[
@@ -41,12 +41,12 @@
 ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- studentLogin -->
-        <test-method status="PASS" signature="postcondition(org.testng.ITestResult)[pri:0, instance:com.allenplus.scripts.StudentLoginTest@42607a4f]" name="postcondition" is-config="true" duration-ms="6084" started-at="2021-11-26T12:11:54 IST" finished-at="2021-11-26T12:12:00 IST">
+        </test-method> <!-- TestStartTest -->
+        <test-method status="PASS" signature="postcondition(org.testng.ITestResult)[pri:0, instance:com.allenplus.scripts.StartTest@42607a4f]" name="postcondition" is-config="true" duration-ms="3297" started-at="2021-12-02T13:21:10 IST" finished-at="2021-12-02T13:21:13 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=studentLogin status=SUCCESS method=StudentLoginTest.studentLogin()[pri:0, instance:com.allenplus.scripts.StudentLoginTest@42607a4f] output=
+                <![CDATA[[TestResult name=TestStartTest status=SUCCESS method=StartTest.TestStartTest()[pri:0, instance:com.allenplus.scripts.StartTest@42607a4f] output=
                   ==========================================================
                       Test is Executed on student Panel at QA server
                   ==========================================================
@@ -57,7 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-      </class> <!-- com.allenplus.scripts.StudentLoginTest -->
+      </class> <!-- com.allenplus.scripts.StartTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

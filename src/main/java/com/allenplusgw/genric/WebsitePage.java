@@ -1,4 +1,4 @@
-package com.allenplus.genric;
+package com.allenplusgw.genric;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;

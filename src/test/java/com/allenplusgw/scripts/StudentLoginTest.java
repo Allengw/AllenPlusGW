@@ -1,9 +1,10 @@
-package com.allenplus.scripts;
+package com.allenplusgw.scripts;
 
 import org.testng.annotations.Test;
-import com.allenplus.pom.StudentLoginPage;
-import com.allenplus.genric.WebsitePage;
-import com.allenplus.genric.BaseLib;
+
+import com.allenplusgw.genric.WebsitePage;
+import com.allenplusgw.pom.StudentLoginPage;
+import com.allenplusgw.genric.BaseLib;
 
 public class StudentLoginTest extends BaseLib{
 
@@ -18,10 +19,7 @@ public class StudentLoginTest extends BaseLib{
 			
 			StudentLoginPage slp=new StudentLoginPage(driver);
 			slp.studentLogin(driver, "QA", "MasterPassword", loggerE, 1);
-			
-			slp.verifyHomePageTitle(driver, loggerE);
-			
-				
+							
 		}
 		
 	}

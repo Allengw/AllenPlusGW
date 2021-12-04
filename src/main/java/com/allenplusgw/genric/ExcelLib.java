@@ -1,4 +1,4 @@
-package com.allenplus.genric;
+package com.allenplusgw.genric;
 
 import java.io.File;
 import java.io.FileInputStream;
