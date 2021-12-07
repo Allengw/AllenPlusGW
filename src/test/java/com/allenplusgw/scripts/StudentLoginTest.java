@@ -19,6 +19,8 @@ public class StudentLoginTest extends BaseLib{
 			
 			StudentLoginPage slp=new StudentLoginPage(driver);
 			slp.studentLogin(driver, "QA", "MasterPassword", loggerE, 1);
+			
+			slp.verifyHomePageTitle(driver, loggerE);
 							
 		}
 		
