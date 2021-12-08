@@ -1,1 +1,1 @@
-java -cp bin;libs/* org.testng.TestNG VideoTest.xml
+java -cp XmlFiles/* org.testng.TestNG StudentLoginTest.xml
