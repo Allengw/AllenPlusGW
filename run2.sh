@@ -1,0 +1,1 @@
+java -cp XmlFiles/* org.testng.TestNG StudentLoginTest.xml

@@ -1505,3 +1505,15 @@ java.lang.IllegalStateException: cannot be started once stopped
 2021-12-02 13:20:37,532 [main] INFO BaseLib - Chrome Browser is Launched
 2021-12-02 13:20:43,322 [main] INFO WebsitePage - Test is Executed at student Panel at QA server
 
+2021-12-09 18:03:26,785 [main] INFO BaseLib - Chrome Browser is Launched
+2021-12-09 18:03:32,061 [main] INFO WebsitePage - Test is Executed at student Panel at QA server
+
+2021-12-09 18:08:41,229 [main] INFO BaseLib - Chrome Browser is Launched
+2021-12-09 18:08:46,279 [main] INFO WebsitePage - Test is Executed at student Panel at QA server
+
+2021-12-09 18:12:25,811 [main] INFO BaseLib - Chrome Browser is Launched
+2021-12-09 18:12:31,121 [main] INFO WebsitePage - Test is Executed at student Panel at QA server
+
+2021-12-09 18:13:36,270 [main] INFO BaseLib - FireFox is Launched
+2021-12-09 18:13:41,006 [main] INFO WebsitePage - Test is Executed at student Panel at QA server
+
