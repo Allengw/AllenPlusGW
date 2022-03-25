@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.allenplus.scripts.StudentLoginTest">
+      <class name="com.allenplusgw.scripts.StudentLoginTest">
         <methods>
-          <include name="studentLogin"/>
-          <include name="preCondition"/>
+          <include name="validstudentLoginMPass"/>
           <include name="postcondition"/>
+          <include name="preCondition"/>
         </methods>
-      </class> <!-- com.allenplus.scripts.StudentLoginTest -->
+      </class> <!-- com.allenplusgw.scripts.StudentLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

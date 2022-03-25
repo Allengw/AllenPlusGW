@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>E:\Eclipse Workplace\AllenPlusGW\XmlFiles\StudentLogin.xml</span>
+                    <span>E:\Eclipse Workplace\AllenPlusGW\XmlFiles\StartTest.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.allenplusgw.scripts.StudentLoginTest" hash-for-method="studentLogin">studentLogin</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.allenplusgw.scripts.StartTest" hash-for-method="TestStartTest">TestStartTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -122,34 +122,36 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.allenplusgw.scripts.StudentLoginTest</span>
+              <span class="class-name">com.allenplusgw.scripts.StartTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="studentLogin">
-                  </a> <!-- studentLogin -->
-                  <span class="method-name">studentLogin</span>
-                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: Session Expired.: 
+                  <a name="TestStartTest">
+                  </a> <!-- TestStartTest -->
+                  <span class="method-name">TestStartTest</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=99.0.4844.82)
 Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
 System info: host: &apos;DESKTOP-DTHFC9P&apos;, ip: &apos;10.8.0.190&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [cab95a3d-57e5-4175-8b79-8b0e97cc48c1, getCurrentUrl {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:55275, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 10244, moz:profile: C:\Users\ginger\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:55275/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: cab95a3d-57e5-4175-8b79-8b0e97cc48c1
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c5e64efc89c4defd25e56ea76f769c15, clickElement {id=0ed954b5-e3a1-459b-8b0b-5a75f363644f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ginger\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64533/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (c5e64efc89c4defd25e56ea76f769c15)] -&gt; xpath: //span[@class=&apos;close_popup crossiconss&apos;]]
+Session ID: c5e64efc89c4defd25e56ea76f769c15
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
-	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:340)
-	at com.allenplusgw.pom.StudentLoginPage.&lt;init&gt;(StudentLoginPage.java:39)
-	at com.allenplusgw.scripts.StudentLoginTest.studentLogin(StudentLoginTest.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at com.allenplusgw.pom.StudentTestPage.StartTest(StudentTestPage.java:80)
+	at com.allenplusgw.scripts.StartTest.TestStartTest(StartTest.java:28)
 	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 27 stack frames
+... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -158,7 +160,7 @@ Session ID: cab95a3d-57e5-4175-8b79-8b0e97cc48c1
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">E:\Eclipse Workplace\AllenPlusGW\XmlFiles\StudentLogin.xml</span>
+            <span class="header-content">E:\Eclipse Workplace\AllenPlusGW\XmlFiles\StartTest.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -166,9 +168,9 @@ Session ID: cab95a3d-57e5-4175-8b79-8b0e97cc48c1
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.allenplusgw.scripts.StudentLoginTest&quot;/&gt;
+      &lt;class name=&quot;com.allenplusgw.scripts.StartTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -210,14 +212,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'studentLogin')
-data.setCell(0, 2, 'com.allenplusgw.scripts.StudentLoginTest')
-data.setCell(0, 3, 4494);
+data.setCell(0, 1, 'TestStartTest')
+data.setCell(0, 2, 'com.allenplusgw.scripts.StartTest')
+data.setCell(0, 3, 17211);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -229,13 +231,14 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">studentLogin</span>
+              <span class="reporter-method-name">TestStartTest</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">
                   ==========================================================
                       Test is Executed on student Panel at QA server
                   ==========================================================
 </span>
+                <span class="reporter-method-output"></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -253,22 +256,20 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.allenplusgw.scripts.StudentLoginTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.allenplusgw.scripts.StartTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">preCondition(firefox)</span>
+                <span class="method-name">preCondition(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">studentLogin</span>
-                <span class="method-start">28825 ms</span>
+                <span class="method-name">TestStartTest</span>
+                <span class="method-start">4122 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">postcondition([TestResult name=studentLogin status=FAILURE method=StudentLoginTest.studentLogin()[pri:0, instance:...)</span>
-                <span class="method-start">33325 ms</span>
+                <span class="method-name">postcondition([TestResult name=TestStartTest status=FAILURE method=StartTest.TestStartTest()[pri:0, instance:com.a...)</span>
+                <span class="method-start">21333 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

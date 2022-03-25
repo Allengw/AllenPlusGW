@@ -1517,3 +1517,294 @@ java.lang.IllegalStateException: cannot be started once stopped
 2021-12-09 18:13:36,270 - BaseLib -INFO - FireFox is Launched
 2021-12-09 18:13:41,006 - WebsitePage -INFO - Test is Executed at student Panel at QA server
 
+2022-03-15 18:18:41,393 - BaseLib -INFO - FireFox is Launched
+2022-03-15 18:18:46,399 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-21 16:48:41,288 - BaseLib -INFO - FireFox is Launched
+2022-03-21 16:48:49,773 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-21 16:49:29,407 - BaseLib -INFO - FireFox is Launched
+2022-03-21 16:49:39,360 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-21 16:49:58,440 - BaseLib -INFO - FireFox is Launched
+2022-03-21 16:50:07,339 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-21 18:05:05,730 - BaseLib -INFO - FireFox is Launched
+2022-03-21 18:05:05,745 - BaseLib -INFO - FireFox is Launched
+2022-03-21 18:05:05,745 - BaseLib -INFO - FireFox is Launched
+2022-03-21 18:05:15,967 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-21 18:05:30,012 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-21 18:05:31,360 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-21 18:06:00,099 - BaseLib -INFO - FireFox is Launched
+2022-03-21 18:06:07,948 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 14:41:18,458 - BaseLib -INFO - FireFox is Launched
+2022-03-23 14:41:18,469 - BaseLib -INFO - FireFox is Launched
+2022-03-23 14:41:18,458 - BaseLib -INFO - FireFox is Launched
+2022-03-23 14:41:26,935 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 14:41:48,147 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 14:41:50,208 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 14:41:53,184 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 14:41:53,348 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 14:41:53,425 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 14:41:54,212 - StudentLoginPage -INFO - Student Password : 1234567
+2022-03-23 14:41:54,303 - StudentLoginPage -INFO - Student Password : 1234567
+2022-03-23 14:41:54,582 - StudentLoginPage -INFO - Invalid Password : 4564564w
+2022-03-23 14:42:18,265 - BaseLib -INFO - FireFox is Launched
+2022-03-23 14:42:19,864 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 14:48:35,767 - BaseLib -INFO - FireFox is Launched
+2022-03-23 14:48:38,924 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 14:48:42,027 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 14:48:42,631 - StudentLoginPage -INFO - Invalid Password : 4564564w
+2022-03-23 14:48:58,415 - BaseLib -INFO - FireFox is Launched
+2022-03-23 14:49:06,869 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 14:49:07,556 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 14:49:07,944 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 14:49:23,674 - BaseLib -INFO - FireFox is Launched
+2022-03-23 14:49:28,788 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 14:49:29,723 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 14:49:30,548 - StudentLoginPage -INFO - Student Password : 1234567
+2022-03-23 14:49:49,980 - BaseLib -INFO - FireFox is Launched
+2022-03-23 14:49:57,315 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 14:49:58,407 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 14:49:58,914 - StudentLoginPage -INFO - Student Password : 1234567
+2022-03-23 14:56:20,752 - BaseLib -INFO - FireFox is Launched
+2022-03-23 14:56:23,365 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 14:56:25,396 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 14:56:25,471 - StudentLoginPage -INFO - Invalid Password : 4564564w
+2022-03-23 14:56:40,230 - BaseLib -INFO - FireFox is Launched
+2022-03-23 14:56:44,037 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 14:56:44,415 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 14:56:44,566 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 14:56:59,335 - BaseLib -INFO - FireFox is Launched
+2022-03-23 14:57:10,173 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 14:57:10,696 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 14:57:11,033 - StudentLoginPage -INFO - Student Password : 1234567
+2022-03-23 14:57:27,234 - BaseLib -INFO - FireFox is Launched
+2022-03-23 14:57:35,268 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 15:04:33,686 - BaseLib -INFO - FireFox is Launched
+2022-03-23 15:04:36,942 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 15:04:42,970 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 15:04:43,990 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 15:08:26,667 - BaseLib -INFO - FireFox is Launched
+2022-03-23 15:08:29,573 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 15:08:31,549 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 15:08:31,627 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 15:08:45,446 - BaseLib -INFO - ScreenShot has been Taken
+2022-03-23 15:20:10,605 - BaseLib -INFO - FireFox is Launched
+2022-03-23 15:20:14,446 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 15:20:19,001 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 15:20:19,665 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 15:20:26,490 - BaseLib -INFO - ScreenShot has been Taken
+2022-03-23 15:20:42,658 - BaseLib -INFO - FireFox is Launched
+2022-03-23 15:20:49,006 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 15:20:49,714 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 15:20:49,821 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 15:20:57,244 - BaseLib -INFO - ScreenShot has been Taken
+2022-03-23 15:22:40,252 - BaseLib -INFO - FireFox is Launched
+2022-03-23 15:22:43,161 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 15:22:45,365 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 15:22:45,440 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 15:22:52,708 - BaseLib -INFO - ScreenShot has been Taken
+2022-03-23 15:24:26,584 - BaseLib -INFO - FireFox is Launched
+2022-03-23 15:24:33,711 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 15:24:34,817 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 15:24:34,937 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 15:24:41,493 - BaseLib -INFO - ScreenShot has been Taken
+2022-03-23 15:27:15,908 - BaseLib -INFO - FireFox is Launched
+2022-03-23 15:27:18,974 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 15:27:24,010 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 15:27:24,444 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 15:27:31,878 - BaseLib -INFO - ScreenShot has been Taken
+2022-03-23 15:30:25,548 - BaseLib -INFO - FireFox is Launched
+2022-03-23 15:30:28,606 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 15:30:30,135 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 15:30:30,359 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 15:30:38,862 - BaseLib -INFO - ScreenShot has been Taken
+2022-03-23 15:36:45,856 - BaseLib -INFO - FireFox is Launched
+2022-03-23 15:36:53,797 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 15:36:54,549 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 15:36:54,645 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 15:37:04,330 - BaseLib -INFO - ScreenShot has been Taken
+2022-03-23 15:38:24,392 - BaseLib -INFO - FireFox is Launched
+2022-03-23 15:38:30,472 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 15:38:36,055 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 15:38:36,839 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 15:41:11,277 - BaseLib -INFO - FireFox is Launched
+2022-03-23 15:41:13,951 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 15:41:17,617 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 15:41:17,737 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 15:41:25,517 - BaseLib -INFO - ScreenShot has been Taken
+2022-03-23 15:43:22,546 - BaseLib -INFO - FireFox is Launched
+2022-03-23 15:43:26,799 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 15:43:33,684 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 15:43:34,292 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 15:47:35,019 - BaseLib -INFO - FireFox is Launched
+2022-03-23 15:47:47,565 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 15:47:50,675 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 15:47:51,336 - StudentLoginPage -INFO - Invalid Password : 4564564w
+2022-03-23 15:48:55,049 - BaseLib -INFO - FireFox is Launched
+2022-03-23 15:49:07,244 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 15:49:10,807 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 15:49:11,433 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 15:49:23,454 - BaseLib -INFO - ScreenShot has been Taken
+2022-03-23 15:58:28,084 - BaseLib -INFO - FireFox is Launched
+2022-03-23 15:58:35,987 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 15:58:38,347 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 15:58:38,896 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 15:58:49,789 - BaseLib -INFO - ScreenShot has been Taken
+2022-03-23 16:09:57,272 - BaseLib -INFO - FireFox is Launched
+2022-03-23 16:09:59,801 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 16:10:04,179 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 16:10:04,367 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 16:10:15,067 - BaseLib -INFO - ScreenShot has been Taken
+2022-03-23 16:17:54,717 - BaseLib -INFO - FireFox is Launched
+2022-03-23 16:17:58,912 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 16:17:59,639 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 16:17:59,747 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 16:18:10,587 - StudentSchedulePage -INFO - Actual Result : https://allenqa.thinkexam.com/login
+2022-03-23 16:18:10,587 - StudentSchedulePage -INFO - Expected Result : https://allenqa.thinkexam.com/schedule
+2022-03-23 16:18:10,967 - BaseLib -INFO - ScreenShot has been Taken
+2022-03-23 16:26:42,301 - BaseLib -INFO - FireFox is Launched
+2022-03-23 16:26:47,958 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 16:26:48,694 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 16:26:48,783 - StudentLoginPage -INFO - Invalid Password : 4564564w
+2022-03-23 16:27:06,454 - BaseLib -INFO - FireFox is Launched
+2022-03-23 16:27:09,419 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 16:27:15,141 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 16:27:15,851 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 16:27:26,361 - StudentSchedulePage -INFO - Actual Result : https://allenqa.thinkexam.com/schedule
+2022-03-23 16:27:26,361 - StudentSchedulePage -INFO - Expected Result : https://allenqa.thinkexam.com/schedule
+2022-03-23 16:27:36,609 - BaseLib -INFO - FireFox is Launched
+2022-03-23 16:27:57,305 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 16:27:58,210 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 16:27:58,765 - StudentLoginPage -INFO - Student Password : 1234567
+2022-03-23 16:28:15,956 - BaseLib -INFO - FireFox is Launched
+2022-03-23 16:28:29,831 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 16:28:30,616 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 16:28:31,156 - StudentLoginPage -INFO - Student Password : 1234567
+2022-03-23 16:36:45,808 - BaseLib -INFO - FireFox is Launched
+2022-03-23 16:36:57,937 - BaseLib -INFO - FireFox is Launched
+2022-03-23 16:37:00,816 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 16:37:04,726 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 16:37:04,983 - StudentLoginPage -INFO - Invalid Password : 4564564w
+2022-03-23 16:37:15,303 - StudentSchedulePage -INFO - Actual Result : https://allenqa.thinkexam.com/login
+2022-03-23 16:37:15,303 - StudentSchedulePage -INFO - Expected Result : https://allenqa.thinkexam.com/schedule
+2022-03-23 16:37:15,706 - BaseLib -INFO - ScreenShot has been Taken
+2022-03-23 16:37:25,995 - BaseLib -INFO - FireFox is Launched
+2022-03-23 16:37:28,943 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 16:37:30,524 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 16:37:30,729 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 16:37:41,033 - StudentSchedulePage -INFO - Actual Result : https://allenqa.thinkexam.com/schedule
+2022-03-23 16:37:41,033 - StudentSchedulePage -INFO - Expected Result : https://allenqa.thinkexam.com/schedule
+2022-03-23 16:37:50,839 - BaseLib -INFO - FireFox is Launched
+2022-03-23 16:37:55,096 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 16:37:56,281 - StudentLoginPage -INFO - Student FormID : DUMST2
+2022-03-23 16:37:56,399 - StudentLoginPage -INFO - Student Password : 1234567
+2022-03-23 16:38:08,143 - StudentSchedulePage -INFO - Actual Result : https://allenqa.thinkexam.com/login
+2022-03-23 16:38:08,143 - StudentSchedulePage -INFO - Expected Result : https://allenqa.thinkexam.com/schedule
+2022-03-23 16:38:08,467 - BaseLib -INFO - ScreenShot has been Taken
+2022-03-23 18:40:25,917 - BaseLib -INFO - Chrome Browser is Launched
+2022-03-23 18:40:30,649 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 18:40:31,363 - StudentLoginPage -INFO - Student FormID : 15004133
+2022-03-23 18:40:31,507 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 18:40:44,848 - BaseLib -INFO - ScreenShot has been Taken
+2022-03-23 18:52:30,691 - BaseLib -INFO - Chrome Browser is Launched
+2022-03-23 18:52:38,492 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 18:52:39,440 - StudentLoginPage -INFO - Student FormID : 15004133
+2022-03-23 18:52:39,677 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 18:52:50,144 - StudentSchedulePage -INFO - Clicked on Test & Report
+2022-03-23 18:52:52,807 - BaseLib -INFO - ScreenShot has been Taken
+2022-03-23 18:54:24,758 - BaseLib -INFO - Chrome Browser is Launched
+2022-03-23 18:54:30,019 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 18:54:30,853 - StudentLoginPage -INFO - Student FormID : 15004133
+2022-03-23 18:54:31,036 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 18:54:43,689 - BaseLib -INFO - ScreenShot has been Taken
+2022-03-23 18:56:20,325 - BaseLib -INFO - Chrome Browser is Launched
+2022-03-23 18:56:26,404 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 18:56:27,022 - StudentLoginPage -INFO - Student FormID : 15004133
+2022-03-23 18:56:27,200 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 18:56:39,589 - StudentSchedulePage -INFO - Clicked on Test & Report
+2022-03-23 18:56:41,273 - BaseLib -INFO - ScreenShot has been Taken
+2022-03-23 19:01:11,811 - BaseLib -INFO - Chrome Browser is Launched
+2022-03-23 19:01:19,348 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 19:01:20,199 - StudentLoginPage -INFO - Student FormID : 15004133
+2022-03-23 19:01:20,500 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 19:01:31,705 - BaseLib -INFO - ScreenShot has been Taken
+2022-03-23 19:02:42,471 - BaseLib -INFO - Chrome Browser is Launched
+2022-03-23 19:02:47,873 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 19:02:48,515 - StudentLoginPage -INFO - Student FormID : 15004133
+2022-03-23 19:02:48,695 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 19:03:00,181 - BaseLib -INFO - ScreenShot has been Taken
+2022-03-23 19:04:26,043 - BaseLib -INFO - Chrome Browser is Launched
+2022-03-23 19:04:32,588 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 19:04:33,305 - StudentLoginPage -INFO - Student FormID : 15004133
+2022-03-23 19:04:33,485 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 19:04:44,450 - BaseLib -INFO - ScreenShot has been Taken
+2022-03-23 19:06:43,743 - BaseLib -INFO - Chrome Browser is Launched
+2022-03-23 19:06:49,383 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 19:06:49,983 - StudentLoginPage -INFO - Student FormID : 15004133
+2022-03-23 19:06:50,155 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 19:07:05,034 - StudentSchedulePage -INFO - Clicked on Test & Report
+2022-03-23 19:07:06,900 - BaseLib -INFO - ScreenShot has been Taken
+2022-03-23 19:08:07,062 - BaseLib -INFO - Chrome Browser is Launched
+2022-03-23 19:08:10,622 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 19:08:11,309 - StudentLoginPage -INFO - Student FormID : 15004133
+2022-03-23 19:08:11,488 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 19:08:21,762 - StudentSchedulePage -INFO - Clicked on Test & Report
+2022-03-23 19:08:23,366 - BaseLib -INFO - ScreenShot has been Taken
+2022-03-23 19:09:18,890 - BaseLib -INFO - Chrome Browser is Launched
+2022-03-23 19:09:23,278 - WebsitePage -INFO - Test is Executed at student Panel at QA server
+
+2022-03-23 19:09:24,273 - StudentLoginPage -INFO - Student FormID : 15004133
+2022-03-23 19:09:24,567 - StudentLoginPage -INFO - Master Password : ap@123
+2022-03-23 19:09:34,745 - StudentSchedulePage -INFO - Clicked on Test & Report
+2022-03-23 19:09:36,315 - BaseLib -INFO - ScreenShot has been Taken

@@ -1,5 +1,7 @@
 package com.allenplusgw.pom;
 
+import java.util.List;
+
 import org.apache.log4j.Logger;
 import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.TimeoutException;
@@ -31,6 +33,9 @@ public class StudentLoginPage{
 	@FindBy(xpath="//input[@class='inpt btnin btneffect']")
 	private WebElement loginBtn;
 	
+	@FindBy(xpath="//span[@class='close_popup crossiconss']")
+	private List<WebElement> popupClose;
+	
 	private String actSLPTitle;
 	
 	public StudentLoginPage(WebDriver driver)
@@ -57,23 +62,37 @@ public class StudentLoginPage{
 				String sFormID=ExcelLib.readExcelData(sheet, row, 2);
 				String sPassword=ExcelLib.readExcelData(sheet, row, 3);
 				String mPassword=ExcelLib.readExcelData(sheet, row, 4);
+				String InPassword=ExcelLib.readExcelData(sheet, row, 1);
 				
 				if(environment.equalsIgnoreCase("QA"))
 				{
 					wait.until(ExpectedConditions.visibilityOf(formID));
 					formID.sendKeys(sFormID);
 					loggerE.log(LogStatus.INFO, "Student FormID : "+sFormID);
+					 logger.info("Student FormID : "+sFormID);
+
 					
 					wait.until(ExpectedConditions.visibilityOf(password));
 					if(passType.equalsIgnoreCase("StudentPassword"))
 					{
 						password.sendKeys(sPassword);
 						loggerE.log(LogStatus.INFO, "Student Password : "+sPassword);
+						 logger.info("Student Password : "+sPassword);
+
 						
 					}else if(passType.equalsIgnoreCase("MasterPassword"))
 					{
 						password.sendKeys(mPassword);
 						loggerE.log(LogStatus.INFO, "Master Password : "+mPassword); 
+						 logger.info("Master Password : "+mPassword);
+
+					}
+					else if(passType.equalsIgnoreCase("InvalidPassword"))
+					{
+						password.sendKeys(InPassword);
+						loggerE.log(LogStatus.INFO, "Invalid Password : "+InPassword); 
+						 logger.info("Invalid Password : "+InPassword);
+
 					}
 					try {
 						Thread.sleep(5000);
@@ -84,7 +103,6 @@ public class StudentLoginPage{
 					wait.until(ExpectedConditions.visibilityOf(loginBtn));
 					loginBtn.click(); 
 					
-					
 				}
 				else if(environment.equalsIgnoreCase("Live"))
 				{
@@ -92,6 +110,8 @@ public class StudentLoginPage{
 					wait.until(ExpectedConditions.visibilityOf(formID));
 					formID.sendKeys(sFormID);
 					loggerE.log(LogStatus.INFO, "Student FormID : "+sFormID);
+					 logger.info("Student FormID : "+sFormID);
+
 					
 					wait.until(ExpectedConditions.visibilityOf(password));
 					
@@ -99,15 +119,27 @@ public class StudentLoginPage{
 					{
 						password.sendKeys(sPassword);
 						loggerE.log(LogStatus.INFO, "Student Password : "+sPassword);
+						 logger.info("Student Password : "+sPassword);
+
 						
 					}else if(passType.equalsIgnoreCase("MasterPassword"))
 					{
 						password.sendKeys(mPassword);
 						loggerE.log(LogStatus.INFO, "Master Password : "+mPassword);
+						 logger.info("Master Password : "+mPassword);
+
+					}
+					else if(passType.equalsIgnoreCase("InvalidPassword"))
+					{
+						password.sendKeys(mPassword);
+						loggerE.log(LogStatus.INFO, "Invalid Password : "+InPassword); 
+						 logger.info("Invalid Password : "+InPassword);
+
 					}
 					
 					wait.until(ExpectedConditions.visibilityOf(loginBtn));
-					loginBtn.click();	
+					loginBtn.click();
+					
 				}
 				
 			}catch(IndexOutOfBoundsException e)
@@ -135,7 +167,6 @@ public class StudentLoginPage{
 	public void verifyHomePageTitle(WebDriver driver,ExtentTest loggerE)
 	{
 		String expSLPTitle="https://allenqa.thinkexam.com/login";
-		
 	    Assert.assertEquals(actSLPTitle, expSLPTitle, "Student Login Page is not Verified");
 	    loggerE.log(LogStatus.PASS,"Student Login Page is  Verified : ' "+actSLPTitle+" '");
 	}

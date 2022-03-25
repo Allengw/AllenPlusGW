@@ -2,17 +2,22 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>AllenPlus</groupId>
-  <artifactId>AllenPlus</artifactId>
+  <groupId>AllenPlusGW</groupId>
+  <artifactId>AllenPlusGW</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
-  <name>AllenPlus</name>
+  <name>AllenPlusGW</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 <dependencies>
-			
+		
+<dependency>
+    <groupId>com.beust</groupId>
+    <artifactId>jcommander</artifactId>
+    <version>1.27</version>
+</dependency>	
 <dependency>
     <groupId>com.google.guava</groupId>
     <artifactId>guava</artifactId>

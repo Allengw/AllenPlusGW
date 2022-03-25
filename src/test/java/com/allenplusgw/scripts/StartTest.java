@@ -19,7 +19,7 @@ public class StartTest extends BaseLib{
 		wp.OpenWebsitePage(driver, "QA", "student");
 		
 		StudentLoginPage slp=new StudentLoginPage(driver);
-		slp.studentLogin(driver, "QA", "MasterPassword", loggerE, 1);
+		slp.studentLogin(driver, "QA", "MasterPassword", loggerE, 4);
 
 		StudentSchedulePage ssp1=new StudentSchedulePage(driver);
 		ssp1.ClickOnTestModule(driver, loggerE);
